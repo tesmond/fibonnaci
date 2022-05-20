@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fibonnaci sequence"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Gill <tesmond@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+bandit = "*"
+black = "*"
+isort = "*"
+mypy = "*"
+safety = "*"
